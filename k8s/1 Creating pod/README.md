@@ -96,7 +96,7 @@ Now you can execute commands inside a container.
 
 4. Delete the pod by executing following command:
 ``
-kubectl delete pod my-pod --grace-period=1
+kubectl delete pod my-pod --grace-period=0 --force
 ``
 
 ## END LAB
